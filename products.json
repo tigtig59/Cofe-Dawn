@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Three knights of siam - Light Roast",
+    "Blend": "Three knights of siam",
+    "type": "light",
+    "size": "กลาง 250g",
+    "price": 265,
+    "image": "images/3knights.jpg",
+    "description": "จิบกาแฟไทยรสละมุน หอมกลิ่นอายธรรมชาติเบาๆ เติมความสดชื่นแบบไม่หนักเกินไปในวันทำงานสบายๆ"
+  },
+  {
+    "id": 2,
+    "name": "Three knights of siam - Medium Roast",
+    "Blend": "Three knights of siam",
+    "type": "medium",
+    "size": "กลาง 250g",
+    "price": 265,
+    "image": "images/3knights.jpg",
+    "description": "กาแฟไทยรสกลมกล่อมสมดุล หอมนุ่มกำลังดี ตอบโจทย์แก้วโปรดยามบ่ายที่ช่วยผ่อนคลายความเหนื่อยล้า"
+  },
+  {
+    "id": 3,
+    "name": "Three knights of siam - Dark Roast",
+    "Blend": "Three knights of siam",
+    "type": "dark",
+    "size": "กลาง 250g",
+    "price": 265,
+    "image": "images/3knights.jpg",
+    "description": "เข้มข้น หอมกรุ่น ถึงใจสไตล์กาแฟไทยแท้ ช่วยปลุกพลังยามเช้าให้พร้อมรับทุกความท้าทาย"
+  },
+  {
+    "id": 4,
+    "name": "House Blend Original - Medium Roast",
+    "Blend": "House Blend Original",
+    "type": "medium",
+    "size": "กลาง 250g",
+    "price": 320,
+    "image": "images/Brazilblend.jpg",
+    "description": "สัมผัสความหอมนุ่มโทนช็อกโกแลตและถั่ว ขนาดพกพาสะดวก เหมาะสำหรับชงดื่มผ่อนคลายได้ทุกวัน"
+  },
+  {
+    "id": 5,
+    "name": "House Blend Original - Dark Roast",
+    "Blend": "House Blend Original",
+    "type": "dark",
+    "size": "กลาง 250g",
+    "price": 320,
+    "image": "images/Brazilblend.jpg",
+    "description": "รสชาติเข้มข้นลงตัว เข้ากันได้ดีเยี่ยมกับนมสด ให้คุณได้ฟินกับเมนูนมแก้วโปรดในขนาดกำลังดี"
+  },
+  {
+    "id": 6,
+    "name": "House Blend Original - Medium Roast",
+    "Blend": "House Blend Original",
+    "type": "medium",
+    "size": "ใหญ่ 500g",
+    "price": 610,
+    "image": "images/Brazilblend.jpg",
+    "description": "ถุงใหญ่สุดคุ้ม สำหรับคอกาแฟสายละมุน ให้คุณได้ดื่มด่ำความหอมนุ่มกลมกล่อมอย่างต่อเนื่องตลอดสัปดาห์"
+  },
+  {
+    "id": 7,
+    "name": "House Blend Original - Dark Roast",
+    "Blend": "House Blend Original",
+    "type": "dark",
+    "size": "ใหญ่ 500g",
+    "price": 610,
+    "image": "images/Brazilblend.jpg",
+    "description": "กาแฟเข้มข้นไซส์ใหญ่ คุ้มค่าสำหรับผู้ที่ชื่นชอบกาแฟรสเข้มและเมนูนมรสละมุนในทุกๆ วัน"
+  },
+  {
+    "id": 8,
+    "name": "Ethiopia blend - Light Roast",
+    "Blend": "Ethiopia blend",
+    "type": "light",
+    "size": "กลาง 250g",
+    "price": 400,
+    "image": "images/Ethiopia.jpg",
+    "description": "สดชื่นผ่อนคลายไปกับกลิ่นหอมผลไม้และ Aftertaste อบอุ่น เติมสุนทรียภาพแห่งการจิบกาแฟสโลว์บาร์"
+  },
+  {
+    "id": 9,
+    "name": "H&H Blend - Light Roast",
+    "Blend": "H&H Blend",
+    "type": "light",
+    "size": "กลาง 250g",
+    "price": 265,
+    "image": "images/HandH.jpg",
+    "description": "อบอวลด้วยกลิ่นหอมหวานอ่อนๆ ของน้ำผึ้งและรสสัมผัสเบาสบาย เหมาะแก่การจิบพักผ่อนในวันสบายๆ"
+  },
+  {
+    "id": 10,
+    "name": "H&H Blend - Medium Roast",
+    "Blend": "H&H Blend",
+    "type": "medium",
+    "size": "กลาง 250g",
+    "price": 265,
+    "image": "images/HandH.jpg",
+    "description": "ผสานความเข้มกำลังดีเข้ากับความหอมหวานของน้ำผึ้งอย่างลงตัว ให้รสชาติที่นุ่มนวลชวนให้หลงรัก"
+  }
+]

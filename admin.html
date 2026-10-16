@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>รายการสั่งซื้อ | Cofe Dawn</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .section__head h1 { font-size: var(--text-2xl); }
+
+    /* Orders table: thin lines, quiet type */
+    .table-wrap {
+      overflow-x: auto;
+      background: var(--white);
+      border: var(--line);
+      border-radius: var(--radius);
+    }
+    #ordersTable {
+      width: 100%;
+      min-width: 760px;
+      border-collapse: collapse;
+      font-size: var(--text-sm);
+      line-height: 1.6;
+    }
+    #ordersTable th,
+    #ordersTable td {
+      padding: 1rem 1.25rem;
+      text-align: left;
+      vertical-align: top;
+      border-bottom: var(--line);
+    }
+    #ordersTable th {
+      font-weight: 400;
+      color: var(--beige-deep);
+      white-space: nowrap;
+      border-bottom: var(--line-strong);
+    }
+    #ordersTable tbody tr:last-child td { border-bottom: 0; }
+    #ordersTable td:first-child { white-space: nowrap; }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html">Cofe Dawn</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="section__head">
+          <h1>รายการสั่งซื้อ</h1>
+          <hr class="rule">
+        </div>
+
+        <div class="table-wrap">
+          <table id="ordersTable">
+            <thead>
+              <tr>
+                <th scope="col">วันเวลา</th>
+                <th scope="col">ชื่อลูกค้า</th>
+                <th scope="col">เบอร์โทร/Line</th>
+                <th scope="col">รายการสินค้า</th>
+                <th scope="col">จำนวนเงินรวม</th>
+                <th scope="col">หมายเหตุ</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container text-center">
+      <p>&copy; 2026 Cofe Dawn</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cofe Dawn | เมล็ดกาแฟคั่วสดสำหรับทุกวัน</title>
+  <meta name="description" content="Cofe Dawn เมล็ดกาแฟคั่ว 4 Blend ให้คุณเลือกตามจังหวะของวัน">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Page-specific touches for the home page */
+    .hero-full {
+      display: flex;
+      align-items: center;
+      min-height: calc(100vh - 5rem);
+      min-height: calc(100svh - 5rem);
+      padding-block: var(--space-6);
+      text-align: center;
+    }
+    .hero-full h1 {
+      max-width: 22em;
+      margin-inline: auto;
+      font-size: clamp(1.75rem, 1.1rem + 2.8vw, 3.25rem);
+      font-weight: 400;
+      line-height: 1.6;
+      text-wrap: balance;
+    }
+    .hero-full .rule { margin: var(--space-4) auto; }
+
+    .blend-card {
+      display: block;
+      height: 100%;
+      color: inherit;
+      text-decoration: none;
+      transition: border-color 0.3s var(--ease);
+    }
+    .blend-card:hover { color: inherit; border-color: var(--gold-soft); }
+    .blend-card p { font-size: var(--text-sm); line-height: 1.8; }
+    .blend-card__more { color: var(--gold-deep); }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html">Cofe Dawn</a>
+      <ul class="nav">
+        <li><a href="index.html" aria-current="page">หน้าแรก</a></li>
+        <li><a href="product.html">สินค้า</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-full">
+      <div class="container">
+        <h1>เริ่มต้นเช้าวันใหม่ หรือพักกายในวันเหนื่อยล้า... ให้ Cofe Dawn เป็นแก้วโปรดที่เติมความอบอุ่นและคืนความสดชื่นให้คุณในทุกๆ วัน</h1>
+        <hr class="rule">
+        <a class="btn" href="product.html">ดูสินค้าทั้งหมด</a>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="blends">
+      <div class="container">
+        <div class="section__head text-center">
+          <h2>เมล็ดกาแฟของเรา</h2>
+          <hr class="rule">
+          <p class="lead">เลือก Blend ที่ใช่สำหรับแก้วโปรดของคุณ</p>
+        </div>
+
+        <div class="grid grid--2">
+
+          <a class="mood-card blend-card" href="product.html?Blend=Three%20knights%20of%20siam">
+            <h3 class="mood-card__title mood-focus">Three Knights of Siam</h3>
+            <p>ผสานความลงตัวจาก 3 แหล่งปลูกที่ดีที่สุดของไทย (เชียงใหม่ เชียงราย น่าน) สู่ House Blend รสคุ้นลิ้นที่ให้กลิ่นหอมเอกลักษณ์ เหมาะสำหรับเติมพลังและสร้างความผ่อนคลายในทุกจังหวะของวัน</p>
+            <span class="blend-card__more">ดูสินค้า</span>
+          </a>
+
+          <a class="mood-card blend-card" href="product.html?Blend=House%20Blend%20Original">
+            <h3 class="mood-card__title mood-romance">House Blend Original</h3>
+            <p>การจับคู่ที่สมบูรณ์แบบระหว่างกาแฟดอยช้าง บราซิล และลาวโบลาเวน ชูรสชาติเข้มข้นพร้อมกลิ่นหอมโทนถั่วและช็อกโกแลต จะดื่มเป็นเอสเพรสโซช็อตเพียวๆ หรือผสมนมก็ละมุนกลมกล่อม</p>
+            <span class="blend-card__more">ดูสินค้า</span>
+          </a>
+
+          <a class="mood-card blend-card" href="product.html?Blend=Ethiopia%20blend">
+            <h3 class="mood-card__title mood-fresh">Ethiopia Blend</h3>
+            <p>เสน่ห์ความสดชื่นสไตล์ Fruity จากเอธิโอเปีย ผสานความนุ่มนวลของเมล็ดดอยช้าง ให้รสสัมผัสโปร่งเบา พร้อมทิ้งทาย Aftertaste หอมหวานชวนหลงใหล เหมาะสำหรับวันที่ต้องการปลุกความสดใส</p>
+            <span class="blend-card__more">ดูสินค้า</span>
+          </a>
+
+          <a class="mood-card blend-card" href="product.html?Blend=H%26H%20Blend">
+            <h3 class="mood-card__title mood-relax">H&amp;H Blend (Honey &amp; House Blend)</h3>
+            <p>เติมความหวานละมุนให้ชีวิตด้วย House Blend สูตรพิเศษ อบอวลด้วยกลิ่นน้ำผึ้งธรรมชาติชวนผ่อนคลาย ให้รสชาติดื่มง่าย นุ่มนวล และแตกต่างอย่างน่าประทับใจ</p>
+            <span class="blend-card__more">ดูสินค้า</span>
+          </a>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container text-center">
+      <p>&copy; 2026 Cofe Dawn</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
